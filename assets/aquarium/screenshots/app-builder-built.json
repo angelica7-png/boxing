@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "碧光アクアリウム",
+      "hasCanvas": true,
+      "bodyTextLen": 113,
+      "bodyTextHash": "e6ed9a0b32e0eb80b66cb1da47852610b91b385a543577f2cc4bc001b1b2d96e",
+      "bodyTextPrefix": "エントランス 館内を開いています NIGHT HALL 碧光アクアリウム 夜の館内。木の床に水槽の光が落ちる。入口からホール、売",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "碧光アクアリウム",
+      "hasCanvas": true,
+      "bodyTextLen": 113,
+      "bodyTextHash": "e6ed9a0b32e0eb80b66cb1da47852610b91b385a543577f2cc4bc001b1b2d96e",
+      "bodyTextPrefix": "エントランス 館内を開いています NIGHT HALL 碧光アクアリウム 夜の館内。木の床に水槽の光が落ちる。入口からホール、売",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
