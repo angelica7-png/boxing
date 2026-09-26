@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0e1624;
+  --color-surface: #162433;
+  --color-fg: #f4ead7;
+  --color-muted: #b3a48e;
+  --color-primary: #e0a04a;
+  --color-accent: #3ec6d8;
+  --color-border: #2c3d50;
+  --font-sans: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Segoe UI", sans-serif;
+  --font-display: "Iowan Old Style", Palatino, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  --radius: 0.9rem;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  #root {
+    height: 100%;
+  }
+}
+
+@media (pointer: fine) {
+  .touch-only {
+    display: none;
+  }
+}

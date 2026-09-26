@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>水族館マップ 1F</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #12161c;
+    color: #dce6ea;
+    font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 2;
+    padding: 12px 16px;
+    background: #12161ce6;
+    border-bottom: 1px solid #2a3542;
+  }
+  h1 { margin: 0; font-size: 16px; font-weight: 600; }
+  p { margin: 6px 0 0; font-size: 12px; color: #9aa8b3; }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0 48px;
+  }
+  img.map {
+    width: min(100%, 420px);
+    height: auto;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    box-shadow: 0 8px 32px #0008;
+  }
+  ul {
+    margin: 8px 16px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: #b7c4cc;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>水族館 1F マップ（2Dドット / 上から）</h1>
+  <p>縦長スマホ約2画面分　入口 → 受付 → 売店・トイレ → ホール → 3エリア扉 → 2F階段</p>
+</header>
+<ul>
+  <li>南（下）が入口。自動ドアと総合受付。</li>
+  <li>売店は左、トイレは右。</li>
+  <li>中央カーペットがホールの動線。</li>
+  <li>北壁の3扉：ジンベイザメ / ペンギン / クラゲ。</li>
+  <li>北西の階段部屋から2Fへ。</li>
+</ul>
+<div class="wrap">
+  <img class="map" src="aquarium_map_1f.png" alt="水族館1Fドットマップ">
+</div>
+</body>
+</html>
